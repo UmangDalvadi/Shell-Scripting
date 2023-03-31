@@ -11,7 +11,7 @@ cal -m february 2020
 date +"%A %B"
 
 #05 AIM : Write the command to activate scientific math functions in the command line calculator.
-
+awk
 
 #06 AIM : Write the command to get the output of the expression ((62.864 + 99.16) * 55.9).
 echo $(((62.864 + 99.16) * 55.9))

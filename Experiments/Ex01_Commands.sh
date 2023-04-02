@@ -8,7 +8,7 @@ cal 2023
 cal -m february 2020
 
 #04 AIM : Display only the day and month of current date.
-date +"%A %B"
+date +"Day : %A, Month : %B"
 
 #05 AIM : Write the command to activate scientific math functions in the command line calculator.
 bc -l
@@ -17,13 +17,14 @@ bc -l
 echo $(((62.864 + 99.16) * 55.9))
 
 #07 AIM : Write the command to find the square root of any positive number.
-echo "sqrt($number)" | bc
+var= number
+echo "sqrt($var)" | bc
 
 #08 AIM : Write the command to convert decimal number into its equivalent hexadecimal number.
-echo “obase=16; ibase=10; $number” | bc
+echo “obase=16; ibase=10; number” | bc
 
 #09 AIM : Write the command to convert binary number into its equivalent decimal number.
-echo “obase=10; ibase=2; $number” | bc
+echo “obase=10; ibase=2; number” | bc
 
 #10 AIM : Write the command to find the total no of digits of a number entered.
 echo "${#variable}"

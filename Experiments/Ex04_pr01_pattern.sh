@@ -5,7 +5,7 @@ do
 #echo $i 
 	for ((j=0; j<=$((4-$i)); j++))
 	do
-		#echo $j
+		echo $j
 		echo -n "*"
 	done
 echo

@@ -10,8 +10,14 @@ echo -n "Enter character to perform task : "
 read char
 
 case $char in 
-a) echo ;;
+a) echo $( cal );;
 
+b) ;;
 
+c) ;;
+
+d)  ;;
+
+e)  ;;
 
 esac

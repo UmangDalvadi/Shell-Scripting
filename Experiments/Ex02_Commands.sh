@@ -4,7 +4,7 @@ echo hello I am learning operating  system
 #13 AIM : Write a command to display comment and current time on terminal  window using echo command.
 
 #14 AIM : Write a command to create a directory named demo in the default  directory of current user on terminal window.
-
+mkdir demo
 #15 AIM : Write a command to create a file named GECBVN and display the  contents of it.
 
 #16 AIM : Write a command to concatenate file demo1 and demo2 to third file  demo3.

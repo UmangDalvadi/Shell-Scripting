@@ -1,3 +1,5 @@
+-
+
 #! /bin/bash
 
 for i in {5..1}

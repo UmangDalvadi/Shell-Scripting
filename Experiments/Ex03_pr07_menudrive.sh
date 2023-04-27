@@ -6,18 +6,22 @@ c. Display usernames those are currently logged in the system
 d. Display your name at given x, y position 
 e. Display your terminal number"
 
+echo
 echo -n "Enter character to perform task : "
 read char
+echo
 
 case $char in 
-a) echo $( cal );;
+a) echo $(cal);;
 
-b) ;;
+b) echo $(date) ;;
 
-c) ;;
+c) echo $USER;;
 
-d)  ;;
+d) echo -e "\033[20;10HHello World" ;;
 
-e)  ;;
+e) echo $(tty) ;;
+
+*) echo Wrong argument!! ;;
 
 esac

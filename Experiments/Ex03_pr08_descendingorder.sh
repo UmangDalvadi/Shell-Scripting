@@ -8,7 +8,7 @@ function sort()
     for i in $(seq ${#arr[@]})
     do
         # for (( j=0;j<$((${#arr[@]}-1-$i)); j++))
-        for (( j=0;j<$((${#arr[@]}-$i)); j++))
+        for (( j=0;j<=$((${#arr[@]}-$i)); j++))
         do
             # echo -n "${arr[$i]} "
             if [[ ${arr[j]} < ${arr[$((j+1))]} ]]
@@ -22,7 +22,7 @@ function sort()
 
     done
 
-    echo -n "${arr[@]} "
+    echo -n "Descending order : ${arr[@]} "
 
 }
 
@@ -31,7 +31,8 @@ read n;
 
 for i in $(seq $n)
 do
-     read arr[$i]
+    echo -n "Element $i : "
+    read arr[$i]
 done
 
 # echo ${arr[@]}

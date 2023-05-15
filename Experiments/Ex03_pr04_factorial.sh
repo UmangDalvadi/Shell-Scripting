@@ -8,5 +8,5 @@ do
         fact=$(($fact * $i))
 done
 
-echo -n Factorial of $num is : $fact
+echo Factorial of $num is : $fact
 
